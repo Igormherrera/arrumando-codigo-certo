@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+    <title>Você decide o futuro da IA</title>
+</head>
+<body>
+    <div class="caixa-principal">
+        <h1>Você decide o futuro da IA</h1>
+        
+        <!-- Tela Inicial -->
+        <div class="caixa-inicial">
+            <p class="texto-inicial">
+                Embarque nesta jornada onde suas escolhas moldam o futuro. Clique no botão abaixo para começar!
+            </p>
+            <button class="iniciar-btn">Iniciar</button>
+        </div>
+
+        <!-- Caixas de Perguntas e Alternativas -->
+        <div class="caixa-perguntas esconder"></div>
+        <div class="caixa-alternativas esconder"></div>
+
+        <!-- Tela de Resultado -->
+        <div class="caixa-resultado esconder">
+            <p class="texto-resultado"></p>
+            <button class="novamente-btn">Jogar novamente</button>
+        </div>
+    </div>
+
+    <!-- Importação do módulo principal nativo diretamente da raiz -->
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
